@@ -2,6 +2,9 @@
 
 showNotes();
 
+let mainTitle = "Magic Notes";
+document.getElementById('main-heading').innerHTML = `Welcome to ${mainTitle}`;
+document.getElementById('main-logo').innerHTML = mainTitle;
 // First lets get the Add Note button 
 let addBtn = document.getElementById('addBtn');
 
